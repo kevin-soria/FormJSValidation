@@ -1,0 +1,17 @@
+h1{
+    text-align: left;
+}
+.txtbox{
+    text-align: left;
+    justify-content: left; 
+}
+.badgeicons{
+    text-align: left;
+    justify-content: left; 
+}
+.buttons{
+    float: right;
+}
+.row1{
+    text-align: left;
+}

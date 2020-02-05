@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a6b72e87e7.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      
+       <div class="container">
+
+    <div class="card text-center">
+ 
+ <!--------V--------V---------Header----------V----------V---------->
+  <div class="card-header">
+    
+    <h1> Payment Form Exercise</h1>
+  </div>
+
+  
+   <!--------V--------V---------Body----------V----------V------------>
+  <div class="card-body">
+<form class="needs-validation" novalidate>
+<!-----V----V-----Invalid Banner------V------V------->
+
+<div class="alert alert-danger" role="alert">
+  There are fields missing
+</div>
+
+
+<!-----V----V-----Row1/4------V------V------->
+
+
+
+<div class="form-row row1">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">Card#</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="XXXXXXX" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+      <div class="invalid-feedback">
+          Please input card number.
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">CVC#</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="0000" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+      <div class="invalid-feedback">
+          Please input cvc#.
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom03">Amount</label>
+      <div class="input-group">
+        $
+        <input type="text" class="form-control" id="validationCustom03" aria-describedby="inputGroupPrepend" placeholder="Amount" required>
+        <div class="invalid-feedback">
+          Please choose an amount.
+        </div>
+        <div class="valid-feedback">
+        Looks good!
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-----V----V-----Row2/4------V------V------->
+  <div class="form-row row1">
+    <div class="col mb-3">
+      <label for="validationCustom03">First name</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="First Name" required>
+      <div class="invalid-feedback">
+        Please provide First Name
+      </div>
+    </div>
+    <div class="col mb-3">
+      <label for="validationCustom03">Last Name</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Last Name" required>
+      <div class="invalid-feedback">
+        Please select a Last Name.
+      </div>
+    </div>
+    
+  </div>
+  <!-----V----V-----Row3/4------V------V------->
+<div class="form-row row1">
+    <div class="col-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide City
+      </div>
+    </div>
+
+
+
+    <div class="col-3 mb-3">
+       <label for="state">State</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                  <option>Florida</option>
+                  <option>Georgia</option>
+                  <option>Texas</option>
+                </select>
+                <div class="invalid-feedback">
+                Please provide State 
+                </div> 
+      <!-- <label for="validationCustom03">State</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please select a State.
+      </div> -->
+     </div>
+
+
+      <div class="col-3 mb-3">
+      <label for="validationCustom03">Postal Code</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Postal Code" required>
+      <div class="invalid-feedback">
+        Please Input Postal code.
+      </div>
+    </div>
+    
+
+
+  </div>
+  <!-----V----V-----Row4/4------V------V------->
+
+
+
+<div class="container">
+     <div class="row">
+    <div class="col-6 badgeicons">
+                        We accept:
+                        <span class="badge badge-secondary">
+                        <div class="btngroup" role="group">
+
+                        <div class="custom-control custom-radio custom-control-inline" role="group">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" checked>
+                        <label class="custom-control-label" for="customRadioInline1" ><i class="far fa-credit-card"></i></label>
+                        </div>
+
+                        <div class="custom-control custom-radio custom-control-inline" role="group" >
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" >
+                        <label class="custom-control-label" for="customRadioInline2" ><i class="far fa-credit-card"></i></label>
+                        </div>
+
+                        <div class="custom-control custom-radio custom-control-inline" role="group" >
+                        <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline3" ><i class="far fa-credit-card"></i></label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline" role="group" >
+                        <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input" >
+                        <label class="custom-control-label" for="customRadioInline4" ><i class="far fa-credit-card"></i></label>
+                        </div>
+                        </div>
+                        </span></h1>
+    </div>
+
+
+<div class="col-6 txtbox">
+                    <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="5" id="comment" required></textarea>
+                    Any notes here.
+                    </div>
+</div>
+ </div>
+</div>
+
+
+  
+   <!--------V--------V---------Footer----------V----------V--------->
+  <div class="card-footer text-muted">
+
+    
+  
+    <button type="submit" class="btn btn-primary buttons">Send</button>
+    <button type="button" class="btn btn-secondary buttons">Cancel</button> 
+ </div>
+</div>
+
+    
+</form>
+
+<!-------------^-----------End footer/form-----------^---------->
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
