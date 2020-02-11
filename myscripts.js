@@ -5,7 +5,9 @@ const validation = () => {
 
     if (myinput === "") {
         // alert("nope");
-        document.getElementById("bannerError").innerHTML = '<div class="alert alert-danger" id="alert" role="alert"> There are fields missing </div>';    }
+        document.getElementById("bannerError").innerHTML = '<div class="alert alert-danger" id="alert" role="alert"> There are fields missing </div>'; 
+        event.preventDefault();   
+}
     // console.log(myinput);
 }
     
@@ -13,4 +15,3 @@ const validation = () => {
 //     document.getElementById("input").innerHTML = "alert";
 
 // });
-
